@@ -1,0 +1,75 @@
+
+
+body{
+   
+    background-color: rgba(121, 100, 53, 0.937);
+    font-family: 'Source Code Pro', monospace;
+}
+.secondSegment{
+    
+    background-color: black;
+}
+#buzCont{
+    width:60%;
+    box-shadow: 10px 10px 10px 7px rgba(20, 20, 20, 0.889);
+    
+    border-radius: 4px;
+    border: 1.5px solid black;
+}
+#buzCont:hover{
+    box-shadow: 4px 4px 2px 6px rgba(226, 231, 226, 0.889),4px 4px 2px 6px rgba(226, 231, 226, 0.889);
+    
+}
+.firstSegment{
+    
+    height: auto;
+    background-color:black;
+}
+
+@media  screen and(max-width:1200px){
+    
+    #buzCont{
+    width:40%;  
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    #containerRow{
+        margin-left: 40px; margin-right: 40px;
+
+    }
+}
+h3{
+    font-family: 'Source Code Pro', monospace; 
+    color: rgba(181, 139, 33, 0.91);
+}
+h5,h6,span{
+     font-family: 'Yanone Kaffeesatz', sans-serif;;
+     color:rgba(255, 255, 255, 0.604);
+}
+img{
+    box-shadow:0 4px 8px  0 rgba(0, 0, 0, 0.2) , 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+@media screen and (max-width:415px){
+    h3{
+        font-size: x-large !important;
+        
+    }
+    .number{
+        font-size: 1.0rem !important;
+    }
+    .email{
+        font-size: 1.0rem !important;
+        display: inline;
+    }
+}
+@media screen and (max-width:360px){
+    .email,.number{
+        font-size: 0.8rem !important;
+    }
+    h3{
+        font-size: large !important ;
+    }
+    
+}
